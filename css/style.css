@@ -1,0 +1,94 @@
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
+body {
+    background-color:  hsl(30, 38%, 92%);
+}
+main {
+    background-color:  hsl(0, 0%, 100%);
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.CHANEL {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 450px;
+    float: left;
+    position: relative; 
+    left: 100px;
+}
+.head {
+    color: hsl(228, 12%, 48%);
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    padding: 30px 0px 10px 0px;
+    
+
+}
+.Gabrielle {
+ font-family: "Fraunces";
+ color: hsl(212, 21%, 14%);
+ font-weight: bold;
+ font-size: 32px;
+ padding-right: 50px;
+ padding: 30px 50px 5px 0px;
+
+}
+.floral {
+ color:  hsl(228, 12%, 48%);
+ font-family: "Montserrat", sans-serif;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 24px;
+ margin-top: -20px;
+
+}
+.free {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Fraunces";
+    /*position: absolute;*/
+    right: 138px;
+    bottom: 25px;
+}
+.dree {
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    text-decoration: line-through;
+    /*position: absolute;*/
+    font-weight: 500;
+    margin: 10px -15px 10px 4px;
+}
+
+.cart {
+    margin-left: 5px;
+}
+  
+.but {
+    background-color:  hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 230px;
+    height: 45px;
+    border: white;
+    margin-top: 20px;
+}
+.but:hover {
+    background-color: hsl(212, 21%, 14%);
+}
